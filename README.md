@@ -10,11 +10,11 @@ This project is built for **learning, portfolio, and academic purposes**. It is 
 
 ## 🎯 Project Goals
 
-* Practice **full-stack development**
-* Implement **role-based access control (RBAC)**
-* Build a **real-world education platform**
-* Demonstrate understanding of **IB school workflows**
-* Produce a **portfolio-ready project**
+- Practice **full-stack development**
+- Implement **role-based access control (RBAC)**
+- Build a **real-world education platform**
+- Demonstrate understanding of **IB school workflows**
+- Produce a **portfolio-ready project**
 
 ---
 
@@ -24,18 +24,18 @@ This project is built for **learning, portfolio, and academic purposes**. It is 
 
 The Super Admin has full control over the system.
 
-* Create classes
-* Assign teachers to classes
-* Enroll students into classes
-* View all classes and users
+- Create classes
+- Assign teachers to classes
+- Enroll students into classes
+- View all classes and users
 
 ### 👨‍🏫 Teacher
 
 Teachers can only manage academic content.
 
-* View assigned classes
-* Create assignments
-* View student submissions
+- View assigned classes
+- Create assignments
+- View student submissions
 
 ❌ Cannot create classes
 ❌ Cannot enroll students
@@ -44,9 +44,9 @@ Teachers can only manage academic content.
 
 Students can only access their learning materials.
 
-* View enrolled classes
-* View assignments
-* Submit assignments
+- View enrolled classes
+- View assignments
+- Submit assignments
 
 ❌ No class or user management
 
@@ -56,11 +56,11 @@ Students can only access their learning materials.
 
 | Action            | Super Admin | Teacher | Student |
 | ----------------- | ----------- | ------- | ------- |
-| Create class      | ✅           | ❌       | ❌       |
-| Assign teacher    | ✅           | ❌       | ❌       |
-| Enroll student    | ✅           | ❌       | ❌       |
-| Create assignment | ❌           | ✅       | ❌       |
-| Submit assignment | ❌           | ❌       | ✅       |
+| Create class      | ✅          | ❌      | ❌      |
+| Assign teacher    | ✅          | ❌      | ❌      |
+| Enroll student    | ✅          | ❌      | ❌      |
+| Create assignment | ❌          | ✅      | ❌      |
+| Submit assignment | ❌          | ❌      | ✅      |
 
 ---
 
@@ -68,24 +68,24 @@ Students can only access their learning materials.
 
 ### Frontend
 
-* React
-* Tailwind CSS
-* React Router (protected routes)
+- React
+- Tailwind CSS
+- React Router (protected routes)
 
 ### Backend
 
-* Node.js
-* Express.js
+- Node.js
+- Express.js
 
 ### Database
 
-* MongoDB
-* Mongoose
+- MongoDB
+- Mongoose
 
 ### Authentication
 
-* JWT (JSON Web Tokens)
-* Password hashing
+- JWT (JSON Web Tokens)
+- Password hashing
 
 ---
 
@@ -118,30 +118,30 @@ mini-toddle/
 
 ### User
 
-* name
-* email
-* password
-* role (super_admin | teacher | student)
+- name
+- email
+- password
+- role (super_admin | teacher | student)
 
 ### Class
 
-* name
-* teacherIds[]
-* studentIds[]
+- name
+- teacherIds[]
+- studentIds[]
 
 ### Assignment
 
-* title
-* description
-* dueDate
-* classId
+- title
+- description
+- dueDate
+- classId
 
 ### Submission
 
-* assignmentId
-* studentId
-* content
-* submittedAt
+- assignmentId
+- studentId
+- content
+- submittedAt
 
 ---
 
@@ -149,19 +149,19 @@ mini-toddle/
 
 ### Super Admin
 
-* POST /classes
-* PUT /classes/:id/assign-teacher
-* PUT /classes/:id/enroll-student
+- POST /classes
+- PUT /classes/:id/assign-teacher
+- PUT /classes/:id/enroll-student
 
 ### Teacher
 
-* GET /classes/my-classes
-* POST /assignments
+- GET /classes/my-classes
+- POST /assignments
 
 ### Student
 
-* GET /classes/my-classes
-* POST /submissions
+- GET /classes/my-classes
+- POST /submissions
 
 ---
 
@@ -169,31 +169,31 @@ mini-toddle/
 
 ### Phase 1: Authentication & Roles
 
-* User registration (admin creates users)
-* Login system
-* Role-based route protection
+- User registration (admin creates users)
+- Login system
+- Role-based route protection
 
 ### Phase 2: Class Management (Admin)
 
-* Create classes
-* Assign teachers
-* Enroll students
+- Create classes
+- Assign teachers
+- Enroll students
 
 ### Phase 3: Assignments (Teacher)
 
-* Create assignments
-* View submissions
+- Create assignments
+- View submissions
 
 ### Phase 4: Student Interaction
 
-* View assignments
-* Submit work
+- View assignments
+- Submit work
 
 ### Phase 5: UI & Polish
 
-* Improve dashboard UI
-* Error handling
-* Basic validation
+- Improve dashboard UI
+- Error handling
+- Basic validation
 
 ---
 
@@ -201,15 +201,15 @@ mini-toddle/
 
 This project is **for educational and portfolio use only**.
 
-* No Toddle branding is used
-* No proprietary features are copied
-* All design and code are original
+- No Toddle branding is used
+- No proprietary features are copied
+- All design and code are original
 
 ---
 
 ## 📌 Author
 
-**Curtis**
+**Curtis Siahe Guelable**
 Software Development Student | Educator | IB Certified
 
 ---
